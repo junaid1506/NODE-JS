@@ -1,14 +1,40 @@
-// let math = require('./maths.js')
+// First Method 
 
-// console.log(math())
+const firtsMethod = require('./firstMethod')
+// print frist's method 
+console.log(firtsMethod.add(12,12));
+console.log(firtsMethod.sub(12,12));
+console.log(firtsMethod.mul(12,12));
+console.log(firtsMethod.div(12,12));
+// print second method 
+console.log(firtsMethod.add(12,12),firtsMethod.sub(12,12),firtsMethod.mul(12,12),firtsMethod.div(12,12))
 
-// const math = require('./maths.js');
+// Second Method 
 
-// console.log(math);
-// app.js
-const math = require('./maths.js'); // Import the function
+const {add,sub,mul,div} = require('./secondMethod')
+// print frist's method 
+console.log(add(12,2));
+console.log(sub(12,2));
+console.log(mul(12,2));
+console.log(div(12,2));
+// print second method 
+console.log(add(12,2),sub(12,2),mul(12,2),div(12,2))
 
-const sub = require('./substract.js');
+// Third Method 
 
-console.log(math(5, 3)); // Output: 8
-console.log(sub(10,5))
+const thirdMethod = require('./thirdMethod')
+// print frist method 
+console.log(thirdMethod.add(12,8));
+console.log(thirdMethod.sub(12,8));
+// print second method 
+console.log(thirdMethod.add(12,8),thirdMethod.sub(12,8))
+
+
+// Fourth Method 
+
+const {add, sub} = require('./fourthMethod')
+// Print First method 
+console.log(add(12,5))
+console.log(sub(12,5))
+// Print Second method 
+console.log(add(12,5),sub(12,5))
