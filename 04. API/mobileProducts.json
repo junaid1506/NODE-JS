@@ -1,0 +1,69 @@
+{
+    "mobiles":[
+        {
+        "id":"1",
+        "company":"Samsung",
+        "modal":"Galaxy M35 5G",
+        "ram":"8GB",
+        "storage":"128GB",
+        "camera":"50MP",
+        "battery":"6000mAh",
+        "display":"120Hz Super AMOLED",
+        "discount":"37%",
+        "price":"₹16,499"
+        
+    },
+    {
+        "id":"2",
+        "company":"POCO",
+        "modal":"M6 Plus 5G",
+        "ram":" 6GB",
+        "storage":" 128GB",
+        "camera":"108MP",
+        "battery":"5030mAh",
+        "display":"120Hz AMOLED",
+        "discount":"15%",
+        "price":"₹11,499"
+        
+    },
+    {
+        "id":"3",
+        "company":"realme ",
+        "modal":"NARZO 70x 5G",
+        "ram":"6GB",
+        "storage":"128GB",
+        "camera":"50MP",
+        "battery":"5000mAh",
+        "display":"120Hz Ultra Smooth",
+        "discount":"25%",
+        "price":"₹13,499"
+        
+    },
+    {
+        "id":"4",
+        "company":"OnePlus",
+        "modal":"Nord CE4 Lite 5G",
+        "ram":"8GB",
+        "storage":"128GB",
+        "camera":"50MP",
+        "battery":"5500mAh",
+        "display":"120Hz AMOLED",
+        "discount":"14%",
+        "price":"₹17,998"
+        
+    },
+    {
+        "id":"5",
+        "company":"Apple",
+        "modal":"iPhone 15",
+        "storage":"128GB",
+        "camera":"48MP",
+        "battery":"4000mAh",
+        "display":"Super Retina XDR",
+        "discount":"16%",
+        "price":"₹58,499"
+        
+    }
+    
+]
+}
