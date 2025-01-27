@@ -1,3 +1,3 @@
 const file = require("fs")
 
-file.writeFileSync('./data.txt', "hello mera baccha")
+file.writeFileSync('./data.txt', "hello world")
