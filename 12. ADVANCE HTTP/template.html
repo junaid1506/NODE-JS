@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .main{
+            height: 10vh;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            width: 90%;
+            margin: 1vh auto;
+        }
+        .sub{
+            /* height: 10vh; */
+            padding: 1%;
+            flex-wrap: wrap;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: 5vh auto;
+        }
+        .box{
+            height: 20vh;
+            margin-top: 2vh;
+            width:24%;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .box a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <h1>Lorem ipsum dolor sit amet.  <span>{{name}}</span>       </h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis pariatur exercitationem, quasi atque eaque dolores itaque ipsam facere alias error distinctio praesentium dolor modi numquam deleniti consectetur perspiciatis quos aliquam quo, quia porro fugiat perferendis. Atque fugit provident tempora delectus perferendis eaque ipsam aliquam doloribus deleniti quasi nemo, quae dicta eos dignissimos cum molestiae vitae ipsa asperiores. Enim iure necessitatibus atque, et sapiente aliquid culpa quis fuga omnis nobis odio! Laborum deleniti cupiditate reprehenderit explicabo! Quis, vitae totam? Sequi consectetur, quasi dignissimos, unde optio error ipsa adipisci nobis eaque dicta ipsum? Pariatur dicta ad est iure dolores perspiciatis molestiae tenetur quam animi consequatur veniam error in aperiam commodi provident culpa consequuntur, velit inventore incidunt ex labore? Error similique eius corporis provident pariatur, nam eveniet laboriosam exercitationem, repellendus accusamus corrupti quaerat, molestias consequatur tenetur at cupiditate facere. Obcaecati, praesentium ratione? Velit, nulla tempore! Odit dolor, ducimus sint obcaecati dolore quo beatae architecto qui, exercitationem non saepe ab iusto, tempore possimus nostrum veritatis praesentium? Architecto repellat praesentium, laborum saepe perferendis dignissimos libero similique iste asperiores, sapiente quasi maxime dolorem veritatis omnis, voluptate facilis nesciunt a. Dolores cupiditate exercitationem ut, modi animi eligendi ad blanditiis perferendis. Fugiat molestiae error repudiandae adipisci dolorem asperiores.</p>
+   <div class="main">USERS</div>
+   <div class="sub">
+    <div class="box"><a href="/card1"> View Card 1</a></div>
+    <div class="box"><a href="/card2"> View Card 2</a></div>
+    <div class="box"><a href="/card3"> View Card 3</a></div>
+    <div class="box"><a href="/card4"> View Card 4</a></div>
+   </div>
 </body>
 </html>
